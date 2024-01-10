@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.active {
+  background-color: #7e7e7e;
+  padding: 5px;
+}
+
+body {
+  min-height: 2000px;
+}
+
+nav {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.menu {
+  width: 400px;
+}
+
+nav .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .menu ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav .profile {
+  display: flex;
+  position: relative;
+  left: 300px;
+  width: 300px;
+  align-items: center;
+}
+
+nav .profile p {
+  margin-left: 10px;
+}
+nav .profile a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.sub-menu {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.sub-menu a {
+  margin-top: 10px;
+  color: #fff;
+  background-color: black;
+  padding: 5px 9px;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+}
+
+header {
+  padding-top: 5rem;
+  background-image: url("../img/background\(home\).jpg");
+  background-color: #00000096;
+  display: flex;
+  background-blend-mode: darken;
+  align-items: center;
+  height: 250px;
+}
+
+header p {
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+  font-style: italic;
+  font-weight: 100;
+  left: 150px;
+}
+
+.container-perpus {
+  padding-top: 3rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.genre {
+  padding: 3rem 0;
+}
+
+.genre p:first-child {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 100;
+  position: relative;
+  left: 25px;
+}
+
+.container-buku {
+  display: flex;
+
+  white-space: wrap;
+  overflow-x: scroll;
+}
+
+.buku {
+  max-height: 480px;
+  width: 220px;
+  background-color: #424242;
+  padding: 10px;
+  margin: 10px 30px;
+}
+
+.buku img {
+  width: 220px;
+  height: 300px;
+}
+
+.buku p {
+  margin: 10px 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.buku button {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  font-weight: bold;
+  color: #fff;
+  align-items: center;
+  margin: auto;
+  width: 150px;
+}
