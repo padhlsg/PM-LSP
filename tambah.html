@@ -4,6 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tambah Buku</title>
+    <link rel="stylesheet" href="css/admin-tambah.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="menu">
+        <ul>
+          <li><a href="admin.html">Edit Dan Hapus</a></li>
+          <li><a href="tambah.html">Tambah-buku</a></li>
+          <li><a href="profile.html">Data Peminjam</a></li>
+        </ul>
+      </div>
+      <div class="profile">
+        <img src="img/icon_profile.png" alt="" />
+        <p>Administrator</p>
+        <a href="login.html">Log out</a>
+      </div>
+    </nav>
+    <section id="tambah">
+      <p>Tambah Buku</p>
+      <div class="container">
+        <form action="admin.html">
+          <input type="file" name="" id="" class="inputfile" placeholder="Cover Buku" />
+          <label for="file">Cover Buku</label>
+          <input type="text" name="judul" id="judul" placeholder="Judul" />
+          <input type="text" name="tahun" id="tahun" placeholder="Tahun Terbit" />
+          <textarea name="desk" id="desk" cols="40" rows="8" placeholder="Deskripsi Buku"></textarea>
+          <button onclick="alert('Buku ditambahkan')">Tambah</button>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
