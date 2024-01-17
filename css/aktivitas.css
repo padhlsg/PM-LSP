@@ -94,7 +94,7 @@ header p {
 }
 
 .container {
-  width: 95%;
+  width: 85%;
   margin: auto;
 }
 
@@ -116,8 +116,10 @@ header p {
 
 #pengumuman img {
   width: 900px;
+  margin: 2% 10%;
 }
 #berita img {
+  margin: 2% 10%;
   width: 900px;
 }
 
@@ -135,9 +137,14 @@ header p {
 
 .aktivitas {
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .galeri img {
+  width: 280px;
   margin: 10px;
+}
+
+.galeri {
+  margin: 1% 10%;
 }

@@ -134,7 +134,11 @@ header p {
 .buku p {
   margin: 10px 0;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 10px;
+}
+
+.buku p:last-child {
+  overflow: scroll;
 }
 
 .buku button {
