@@ -145,6 +145,7 @@ header p {
   display: flex;
   justify-content: center;
   background-color: black;
+  flex-direction: row;
   border: none;
   border-radius: 10px;
   height: 30px;
